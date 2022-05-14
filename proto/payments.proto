@@ -1,8 +1,8 @@
-syntax = "proto3"
+syntax = "proto3";
 package payments;
 
 service Bitcoin {
-    rpc SendPayment (BTCPaymentRequest) returns (BTCPaymentResponse)
+    rpc SendPayment (BTCPaymentRequest) returns (BTCPaymentResponse);
 }
 
 message BTCPaymentRequest {
